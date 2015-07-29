@@ -12,6 +12,16 @@ _A tentative plan of development for something that will grow into a dynamically
 - **Angular**--This will add a lot of scalability and flexibility
  - **Install [Angular](https://angularjs.org)** and get acquainted with the platform.
  - I recommend the **Shaping up with Angular** tutorials which you can [follow here](http://campus.codeschool.com/courses/shaping-up-with-angular-js).
-- A lot more customizations with **Flickity.js**
+- A lot more customizations with **[Flickity.js](https://github.com/metafizzy/flickity)**
  - And also more use of it in general such as on the layover pages as well
-- ...
+ - * including addition of staticClick function because many users will instinctively tap
+ - * including use on selected pages for a gallery
+- ~~Add a .css-only preloader~~
+- Don't use jQuery unless really must
+
+---
+
+| Day     |         |   |
+| --------|---------|---|
+| Monday  |         |   |
+| Tuesday |         |   |

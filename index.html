@@ -10,11 +10,10 @@
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 	<title>Dashboard</title>
-	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/flickity.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
-	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/ball-triangle-path.min.css" />
 </head>
 <body>
 	<div class="container">
@@ -396,8 +395,13 @@
 			<!-- /stacks-wrapper -->
 		</div>
 		<!-- /stacks -->
-		<img class="loader" src="img/three-dots.svg" width="60" alt="Loader image" />
+		<div class="loader la-ball-triangle-path">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
 	</div>
+	<script src="js/modernizr.custom.js"></script>
 	<script src="js/flickity.pkgd.min.js"></script>
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/main.js"></script>

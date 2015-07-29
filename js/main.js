@@ -124,8 +124,8 @@
 			titleEl.addEventListener('mouseenter', function(ev) {
 				if( classie.has(stack, 'is-selected') ) {
 					canMoveHeroImage = false;
-					imghero.style.WebkitTransform = 'perspective(1000px) translate3d(0,0,0) rotate3d(1,1,1,0deg)';
-					imghero.style.transform = 'perspective(1000px) translate3d(0,0,0) rotate3d(1,1,1,0deg)';
+					//imghero.style.WebkitTransform = 'perspective(1000px) translate3d(0,0,0) rotate3d(1,1,1,0deg)';
+					//imghero.style.transform = 'perspective(1000px) translate3d(0,0,0) rotate3d(1,1,1,0deg)';
 				}
 			});
 
@@ -145,8 +145,8 @@
 				transY = 20/(win.height)*ev.clientY - 10,
 				transZ = 100/(win.height)*ev.clientY - 50;
 
-			imghero.style.WebkitTransform = 'perspective(1000px) translate3d(' + transX + 'px,' + transY + 'px,' + transZ + 'px) rotate3d(' + xVal + ',' + yVal + ',0,2deg)';
-			imghero.style.transform = 'perspective(1000px) translate3d(' + transX + 'px,' + transY + 'px,' + transZ + 'px) rotate3d(' + xVal + ',' + yVal + ',0,2deg)';
+			//imghero.style.WebkitTransform = 'perspective(1000px) translate3d(' + transX + 'px,' + transY + 'px,' + transZ + 'px) rotate3d(' + xVal + ',' + yVal + ',0,2deg)';
+			//imghero.style.transform = 'perspective(1000px) translate3d(' + transX + 'px,' + transY + 'px,' + transZ + 'px) rotate3d(' + xVal + ',' + yVal + ',0,2deg)';
 		}, 100));
 
 		// window resize
@@ -161,8 +161,8 @@
 
 		// Flickity events:
 		flkty.on('cellSelect', function() {
-			canOpen = false;
-			classie.remove(bodyEl, 'item-clickable');
+			//canOpen = false;
+			//classie.remove(bodyEl, 'item-clickable');
 
 			var prevStack = stacksWrapper.querySelector('.stack-prev'),
 				nextStack = stacksWrapper.querySelector('.stack-next'),
@@ -182,16 +182,15 @@
 			classie.add(stacks[nextidx], 'stack-next');
 
 		});
-
 		flkty.on('dragStart', function() {
-			canOpen = false; 
-			classie.remove(bodyEl, 'item-clickable');
+			//canOpen = false; 
+			//classie.remove(bodyEl, 'item-clickable');
 		});
 
 		flkty.on('settle', function() { 
-			classie.add(bodyEl, 'item-clickable');
-			canOpen = true; 
-		});
+			//classie.add(bodyEl, 'item-clickable');
+			//canOpen = true; 
+		});	
 	}
 
 	init();
