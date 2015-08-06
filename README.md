@@ -10,8 +10,8 @@ This code will evolve over time to support improved design and added features. I
 _A tentative plan of development for something that will grow into a dynamically-managed, user-friendly user interface_
 
 - **Angular**--This will add a lot of scalability and flexibility
- - **Install [Angular](https://angularjs.org)** and get acquainted with the platform.
- - I recommend the **Shaping up with Angular** tutorials which you can [follow here](http://campus.codeschool.com/courses/shaping-up-with-angular-js).
+ - ~~**Install [Angular](https://angularjs.org)** and get acquainted with the platform.~~
+   - I recommend the **Shaping up with Angular** tutorials which you can [follow here](http://campus.codeschool.com/courses/shaping-up-with-angular-js).
 - A lot more customizations with **[Flickity.js](https://github.com/metafizzy/flickity)**
  - And also more use of it in general such as on the layover pages as well
  - * including addition of staticClick function because many users will instinctively tap
