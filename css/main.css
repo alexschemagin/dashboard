@@ -298,7 +298,9 @@ button:focus {
 	position:relative;
 	cursor:pointer;
 }
-
+	.stack.is-selected .stack-title:before {
+		opacity:1;
+	}
 .stack-title a {
 	display:block;
 	position:relative;
